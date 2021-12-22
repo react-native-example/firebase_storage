@@ -111,12 +111,14 @@
 //
 
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {SafeAreaView,Text} from 'react-native';
+import Todos from "./src/Screen/Todo";
 const App=()=>{
   return(
-    <SafeAreaView>
-      <Text>this is the sample text</Text>
-    </SafeAreaView>
+    // <SafeAreaView>
+      <Todos />
+      // {/*<Text>This is the text</Text>*/}
+    // </SafeAreaView>
   )
 }
 export default App;
